@@ -1,0 +1,10 @@
+<resources>
+    <string name="easy">Easy</string>
+    <string name="stonks">Stonks</string>
+    <string name="app_name">Easy</string>
+    <string name="instructions">Press the button!</string>
+    <plurals name="clicks">
+        <item quantity="one">$d click</item>
+        <item quantity="other">$d clicks</item>
+    </plurals>
+</resources>

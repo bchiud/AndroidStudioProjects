@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/easyFragment"
+            android:icon="@drawable/ic_baseline_radio_button_checked_24"
+            android:title="Easy" />
+    </group>
+
+    <group android:id="@+id/group2">
+        <item
+            android:id="@+id/stonksFragment"
+            android:icon="@drawable/ic_baseline_trending_up_24"
+            android:title="Stonks" />
+    </group>
+
+
+</menu>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Jetpack Navigation</string>
+    <string name="first_page_title">1st Page</string>
+    <string name="first_page_subtitle">This is the home page</string>
+    <string name="first_page_content">This is the first page.</string>
+    <string name="first_page_to_second_page_button">Go to 2nd Page</string>
+    <string name="second_page_title">2nd Page</string>
+    <string name="second_page_subtitle">This is the second page.</string>
+    <string name="second_page_content">This is the second page.</string>
+    <string name="second_page_to_third_page_button">Go to 3rd Page</string>
+    <string name="third_page_title">3rd Page</string>
+    <string name="third_page_subtitle">This is the third page.</string>
+    <string name="third_page_content">This is the third page.</string>
+    <string name="third_page_to_first_page_button">Go to 1st Page</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+</resources>

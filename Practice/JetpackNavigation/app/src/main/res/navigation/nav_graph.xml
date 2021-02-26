@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/firstPage">
+
+    <fragment
+        android:id="@+id/firstPage"
+        android:name="com.bradychiu.jetpacknavigation.FirstPageFragment"
+        android:label="@string/first_page_title"
+        tools:layout="@layout/fragment_first_page">
+        <action
+            android:id="@+id/action_firstPage_to_secondPage"
+            app:destination="@id/secondPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondPage"
+        android:name="com.bradychiu.jetpacknavigation.SecondPageFragment"
+        android:label="@string/second_page_title"
+        tools:layout="@layout/fragment_second_page">
+        <action
+            android:id="@+id/action_secondPage_to_thirdPage"
+            app:destination="@id/thirdPage" />
+        <argument
+            android:name="nav_source"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdPage"
+        android:name="com.bradychiu.jetpacknavigation.ThirdPageFragment"
+        android:label="@string/third_page_title"
+        tools:layout="@layout/fragment_third_page">
+        <argument
+            android:name="nav_source"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_thirdPage_to_firstPage"
+            app:destination="@id/firstPage" />
+    </fragment>
+</navigation>

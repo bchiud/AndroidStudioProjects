@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/stockListFragment">
+
+    <fragment
+        android:id="@+id/stockListFragment"
+        android:name="com.bradychiu.stonks.stocklist.StockListFragment"
+        android:label="stock_list_fragment"
+        tools:layout="@layout/stock_list_fragment" >
+        <action
+            android:id="@+id/action_stockListFragment_to_timeSeriesFragment"
+            app:destination="@id/timeSeriesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/timeSeriesFragment"
+        android:name="com.bradychiu.stonks.timeseries.TimeSeriesFragment"
+        android:label="time_series_fragment"
+        tools:layout="@layout/time_series_fragment" >
+        <argument
+            android:name="tickerSymbol"
+            app:argType="string" />
+    </fragment>
+</navigation>
