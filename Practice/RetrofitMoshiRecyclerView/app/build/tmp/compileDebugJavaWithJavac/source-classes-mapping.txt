@@ -1,0 +1,24 @@
+com/bradychiu/retrofitmoshirecyclerview/BuildConfig.java
+ com.bradychiu.retrofitmoshirecyclerview.BuildConfig
+com/bradychiu/retrofitmoshirecyclerview/DataBindingTriggerClass.java
+ com.bradychiu.retrofitmoshirecyclerview.DataBindingTriggerClass
+com/bradychiu/retrofitmoshirecyclerview/databinding/ItemBinding.java
+ com.bradychiu.retrofitmoshirecyclerview.databinding.ItemBinding
+com/bradychiu/retrofitmoshirecyclerview/databinding/ItemBindingImpl.java
+ com.bradychiu.retrofitmoshirecyclerview.databinding.ItemBindingImpl
+com/bradychiu/retrofitmoshirecyclerview/databinding/ActivityMainBinding.java
+ com.bradychiu.retrofitmoshirecyclerview.databinding.ActivityMainBinding
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+com/bradychiu/retrofitmoshirecyclerview/DataBinderMapperImpl.java
+ com.bradychiu.retrofitmoshirecyclerview.DataBinderMapperImpl
+ com.bradychiu.retrofitmoshirecyclerview.DataBinderMapperImpl$InnerBrLookup
+ com.bradychiu.retrofitmoshirecyclerview.DataBinderMapperImpl$InnerLayoutIdLookup
+com/bradychiu/retrofitmoshirecyclerview/databinding/ActivityMainBindingImpl.java
+ com.bradychiu.retrofitmoshirecyclerview.databinding.ActivityMainBindingImpl
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+com/bradychiu/retrofitmoshirecyclerview/BR.java
+ com.bradychiu.retrofitmoshirecyclerview.BR

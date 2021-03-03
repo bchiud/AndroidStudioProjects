@@ -37,10 +37,13 @@ class ViewModel : ViewModel() {
     fun getStockData(querySymbol: String) {
         viewModelScope.launch {
             try {
-                _dailyAdjusted.value = AlphaVantageApi.retrofitService.getNetworkDailyAdjusted(querySymbol)
-                        .asDomainModel()
-                Log.i(TAG, "Success: $${_dailyAdjusted.value!!.symbol} retrieved " +
-                        "with ${_dailyAdjusted.value!!.stockPrices.size} days")
+                _dailyAdjusted.value =
+                        AlphaVantageApi.retrofitService.getNetworkDailyAdjusted(querySymbol)
+                                .asDomainModel()
+                Log.i(
+                        TAG, "Success: $${_dailyAdjusted.value!!.symbol} retrieved " +
+                        "with ${_dailyAdjusted.value!!.stockPrices.size} days"
+                )
                 updateUIProperties()
             } catch (e: Exception) {
                 Log.e(TAG, "Failure: ${e.message}")
@@ -48,8 +51,11 @@ class ViewModel : ViewModel() {
         }
     }
 
+
     private fun updateUIProperties() {
         _symbol.value = _dailyAdjusted.value!!.symbol
-        _stockPrices.value = _dailyAdjusted.value!!.stockPrices
+        _stockPrices.value = _dailyAdjusted.value!!.stockPrices.sortedByDescending {
+            it.date
+        }
     }
 }
