@@ -65,11 +65,11 @@ class MainActivity : AppCompatActivity() {
 
         val adapter = StockPriceAdapter()
         binding.rvMain.adapter = adapter
-        viewModel.stockPrices.observe(this, Observer {
-            it?.let {
-                adapter.stockPrices = it
-            }
-        })
+        // viewModel.stockPrices.observe(this, Observer {
+        //     it?.let {
+        //         adapter.submitList(it)
+        //     }
+        // })
 
     }
 }
